@@ -19,6 +19,9 @@
         <module>Logging/Exercise1</module>
         <module>Mockito/Exercise1</module>
         <module>Mockito/Exercise2</module>
+        <module>Spring_Core_Maven/Exercise1</module>
+        <module>Spring_Core_Maven/Exercise2</module>
+        <module>Spring_Core_Maven/Exercise4</module>
     </modules>
 
     <properties>
