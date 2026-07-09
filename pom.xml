@@ -17,6 +17,8 @@
         <module>JUnit/Exercise3</module>
         <module>JUnit/Exercise4</module>
         <module>Logging/Exercise1</module>
+        <module>Mockito/Exercise1</module>
+        <module>Mockito/Exercise2</module>
     </modules>
 
     <properties>
