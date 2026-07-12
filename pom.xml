@@ -25,6 +25,8 @@
         <module>SpringDataJpa/Exercise1</module>
         <module>SpringRest/Exercise_JWT</module>
         <module>SpringRest/spring-learn</module>
+        <module>microservices/account</module>
+        <module>microservices/loan</module>
     </modules>
 
     <properties>
