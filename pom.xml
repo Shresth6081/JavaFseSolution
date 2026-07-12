@@ -22,6 +22,7 @@
         <module>Spring_Core_Maven/Exercise1</module>
         <module>Spring_Core_Maven/Exercise2</module>
         <module>Spring_Core_Maven/Exercise4</module>
+        <module>SpringDataJpa/Exercise1</module>
     </modules>
 
     <properties>
