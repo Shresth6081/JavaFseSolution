@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Post from "./Post";
 
 class Posts extends Component {
+
     constructor(props) {
         super(props);
 
@@ -11,9 +12,11 @@ class Posts extends Component {
     }
 
     loadPosts() {
+
         fetch("https://jsonplaceholder.typicode.com/posts")
             .then(response => response.json())
             .then(data => {
+
                 const posts = data.map(post =>
                     new Post(post.id, post.title, post.body)
                 );
@@ -21,6 +24,7 @@ class Posts extends Component {
                 this.setState({
                     posts: posts
                 });
+
             });
     }
 
@@ -34,16 +38,27 @@ class Posts extends Component {
     }
 
     render() {
+
         return (
+
             <div>
+
                 {this.state.posts.map(post => (
+
                     <div key={post.id}>
+
                         <h3>{post.title}</h3>
+
                         <p>{post.body}</p>
+
                         <hr />
+
                     </div>
+
                 ))}
+
             </div>
+
         );
     }
 }
