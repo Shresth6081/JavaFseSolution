@@ -1,0 +1,4 @@
+<hello>
+    <message>Hello from main branch (conflicting change)!</message>
+    <message>Hello from GitWork branch!</message>
+</hello>

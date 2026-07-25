@@ -1,0 +1,5 @@
+*.log
+log/
+# Merge backup files (e.g. from P4Merge / diff tools)
+*.orig
+*.bak
